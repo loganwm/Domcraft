@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML DOM Minecraft Blocks</title>
+	<link rel="stylesheet" type="text/css" href="./blocks.css" media="screen"></link>
+	<link rel="stylesheet" type="text/css" href="./fonts/minecraft_font.css" media="screen"></link>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="./minecraftwall.js"></script>
+	<script type="text/javascript">
+	
+	
+		$(document).ready(function()
+		{
+			$("body").css("background-color","#00001F");
+		
+			var map_string = '{"width": 16,"height": 11,"data":[1,2,3,4,5,7,12,13,14,15,16,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]}';
+			var map = jQuery.parseJSON(map_string);
+	
+			jQuery.getJSON("./sample.json", function(data)
+			{			
+				console.log("log");
+				console.log(data);
+				var element = CreateMinecraftWall(data,64);
+				element.css("position", "absolute");
+				element.css("top","0px");
+				element.css("left","0px");
+
+				element.css("left","50px");
+				element.css("top","50px");
+
+				$("body").append(element);
+				
+			});
+		});
+	</script>
+</head>
+<body>
+<p style="position: absolute; top: 70px; left: 70px; font-family:'Minecraft Regular'; color: #ffffff; transform: rotateY(30deg); -webkit-transform: rotateY(45deg);">Hello World</p>
+</body>
+</html>

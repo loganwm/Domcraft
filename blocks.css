@@ -1,0 +1,228 @@
+.block-shadow-container
+{
+	position: inherit;
+	top: 0px;
+	left: 0px;
+}
+
+.block-container
+{
+	position: inherit;
+	top: 0px;
+	left: 0px;
+}
+
+.block-shadow
+{
+	background: url("./shades/20.png");
+}
+
+.block-128
+{
+	width: 128px;
+	height: 128px;
+	padding: 0px;
+	margin: 0px;
+	float: left;	
+}
+
+.block-air-128
+{
+	background: none;
+}
+
+.block-stone-128
+{
+	background: url("blocks-128.png") -128px 0px;
+}
+
+.block-grass-128
+{
+	background: url("blocks-128.png") 0px 0px;
+}
+
+.block-dirt-128
+{
+	background: url("blocks-128.png") -256px 0px;
+}
+
+.block-grass-128
+{
+	background: url("blocks-128.png") -384px 0px;
+}
+
+.block-cobblestone-128
+{
+	background: url("blocks-128.png") 0px -128px;
+}
+
+.block-planks-128
+{
+	background: url("blocks-128.png") -512px 0px;
+}
+
+.block-bedrock-128
+{
+	background: url("blocks-128.png") -128px -128px;
+}
+
+.block-sand-128
+{
+	background: url("blocks-128.png") -256px -128px;
+}
+
+.block-gravel-128
+{
+	background: url("blocks-128.png") -384px -128px;
+}
+
+.block-goldore-128
+{
+	background: url("blocks-128.png") 0px -256px;
+}
+
+.block-ironore-128
+{
+	background: url("blocks-128.png") -128px -256px;
+}
+
+.block-coalore-128
+{
+	background: url("blocks-128.png") -256px -256px;
+}
+
+.block-wood-128
+{
+	background: url("blocks-128.png") -512px -128px;
+}
+
+.block-leaves-128
+{
+	background: url("blocks-128.png") -512px -384px;
+}
+
+
+.block-64
+{
+	width: 64px;
+	height: 64px;
+	padding: 0px;
+	margin: 0px;
+	float: left;	
+}
+
+.block-air-64
+{
+	background: none;
+}
+
+.block-stone-64
+{
+	background: url("blocks-64.png") -64px 0px;
+}
+
+.block-grass-64
+{
+	background: url("blocks-64.png") 0px 0px;
+}
+
+.block-dirt-64
+{
+	background: url("blocks-64.png") -128px 0px;
+}
+
+.block-grass-64
+{
+	background: url("blocks-64.png") -192px 0px;
+}
+
+.block-cobblestone-64
+{
+	background: url("blocks-64.png") 0px -64px;
+}
+
+.block-planks-64
+{
+	background: url("blocks-64.png") -256px 0px;
+}
+
+.block-bedrock-64
+{
+	background: url("blocks-64.png") -64px -64px;
+}
+
+.block-lava-64
+{
+}
+
+.block-lava-64-1
+{
+	background: url("blocks-64.png") -832px -896px;
+}
+
+.block-lava-64-2
+{
+	background: url("blocks-64.png") -896px -896px;
+}
+
+.block-lava-64-3
+{
+	background: url("blocks-64.png") -960px -896px;
+}
+
+.block-lava-64-4
+{
+	background: url("blocks-64.png") -896px -960px;
+}
+
+.block-lava-64-5
+{
+	background: url("blocks-64.png") -960px -960px;
+}
+
+
+.block-sand-64
+{
+	background: url("blocks-64.png") -64px -64px;
+}
+
+.block-gravel-64
+{
+	background: url("blocks-64.png") -192px -64px;
+}
+
+.block-goldore-64
+{
+	background: url("blocks-64.png") 0px -128px;
+}
+
+.block-ironore-64
+{
+	background: url("blocks-64.png") -64px -128px;
+}
+
+.block-coalore-64
+{
+	background: url("blocks-64.png") -128px -128px;
+}
+
+.block-wood-64
+{
+	background: url("blocks-64.png") -256px -64px;
+}
+
+.block-leaves-64
+{
+	background: url("blocks-64.png") -256px -192px;
+}
+
+.block-glass-64
+{
+	background: url("blocks-64.png") -64px -192px;
+}
+
+.block-turd-64
+{
+	background: url("blocks-64.png") 0px -192px;
+}
+
